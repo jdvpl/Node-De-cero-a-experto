@@ -1,7 +1,6 @@
 const fs=require('fs');
 // se crea la funcion para crear archivos y guardar la info
 const crearArchivoTabal=async(base=5, limite=10,ejecutar=false)=>{
-
     try {
       let salida='';
       for (let i = 1; i <=limite; i++){
